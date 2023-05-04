@@ -1,0 +1,46 @@
+{
+  "daily": [
+    {
+      "day": "Mon",
+      "temperature_min": 18,
+      "temperature_max": 28,
+      "weather_type": "Sunny"
+    },
+    {
+      "day": "Tue",
+      "temperature_min": 17,
+      "temperature_max": 26,
+      "weather_type": "Partly Cloudy"
+    },
+    {
+      "day": "Wed",
+      "temperature_min": 16,
+      "temperature_max": 24,
+      "weather_type": "Mostly Cloudy"
+    },
+    {
+      "day": "Thu",
+      "temperature_min": 16,
+      "temperature_max": 24,
+      "weather_type": "Mostly Cloudy"
+    },
+    {
+      "day": "Fri",
+      "temperature_min": 16,
+      "temperature_max": 24,
+      "weather_type": "Mostly Cloudy"
+    },
+    {
+      "day": "Sat",
+      "temperature_min": 16,
+      "temperature_max": 24,
+      "weather_type": "Mostly Cloudy"
+    },
+    {
+      "day": "Sun",
+      "temperature_min": 16,
+      "temperature_max": 24,
+      "weather_type": "Mostly Cloudy"
+    }
+  ]
+}
