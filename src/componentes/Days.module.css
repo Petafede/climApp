@@ -1,0 +1,12 @@
+.diasContainer {
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+
+.forecastLabel {
+  font-size: 11px;
+  padding: 10px 0;
+}

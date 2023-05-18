@@ -1,12 +1,20 @@
 import React from 'react';
+import styles from './Day.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { getIcon } from '../helpers/helpers';
 
 function Day(props) {
   return (
-    <div className="dia">
-      <div>{props.day}</div>
-      <div>{props.tempMin}</div>
-      <div>{props.tempMax}</div>
-      <div>{props.weatherThype}</div>
+    <div className={styles.diaContainer}>
+      <div className={styles.day}>{props.day}</div>
+      <div>
+        <FontAwesomeIcon icon={getIcon(props.estadoDelCielo)} />
+      </div>
+      {/* <div>{props.weatherThype}</div> */}
+      <div className={styles.temperature}>
+        <div>{props.tempMin}</div>
+        <div>{props.tempMax}</div>
+      </div>
     </div>
   );
 }
