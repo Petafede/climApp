@@ -4,6 +4,7 @@ import Days from './componentes/Days';
 import Humidity from './componentes/Humidity';
 import Uv from './componentes/Uv';
 import Sunset from './componentes/Sunset';
+import ListSelector from './componentes/ListSelector';
 // import apiMock from './api/api.json';
 import apiDays from './api/days.json';
 import styles from './App.module.css';
@@ -16,6 +17,7 @@ function App() {
   const [ready, setReady] = useState(false);
   // cree un estado de diasClima para poder iterar la info del componente Days.
   const [diasClima, setDiasClima] = useState();
+  const [city, setCity] = useState();
 
   useEffect(() => {
     // cuando se monta el componente llamamos a la funcion getForecast que nos trae el clima
@@ -41,7 +43,9 @@ function App() {
   return (
     <div className={styles.appContainer}>
       <div className={styles.federico}></div>
-      <div className={styles.fabri}></div>
+      <div className={styles.fabri}>
+        <ListSelector setCity={setCity}/>
+      </div>
       <Header
         ubicacion={clima.location.name}
         fecha={clima.current.last_updated}
