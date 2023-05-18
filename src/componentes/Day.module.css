@@ -9,8 +9,16 @@
 .temperature {
   display: flex;
   margin: 15px 0;
+  width: 33.3%;
+  justify-content: flex-end;
 }
 
 .temperature > div {
   margin: 0 10px;
+}
+
+.day {
+  width: 33.3%;
+  display: flex;
+  justify-content: flex-start;
 }

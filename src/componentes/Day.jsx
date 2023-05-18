@@ -6,7 +6,7 @@ import { getIcon } from '../helpers/helpers';
 function Day(props) {
   return (
     <div className={styles.diaContainer}>
-      <div style={{ width: '60px' }}>{props.day}</div>
+      <div className={styles.day}>{props.day}</div>
       <div>
         <FontAwesomeIcon icon={getIcon(props.estadoDelCielo)} />
       </div>
