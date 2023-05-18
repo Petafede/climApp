@@ -40,6 +40,8 @@ function App() {
 
   return (
     <div className={styles.appContainer}>
+      <div className={styles.federico}></div>
+      <div className={styles.fabri}></div>
       <Header
         ubicacion={clima.location.name}
         fecha={clima.current.last_updated}
