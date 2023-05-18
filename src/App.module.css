@@ -1,0 +1,20 @@
+.appContainer {
+  background-color: rgb(48, 61, 71);
+  background-image: url('./assets/imagess/stars.jpeg');
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}

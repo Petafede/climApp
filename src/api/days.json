@@ -4,43 +4,43 @@
       "day": "Mon",
       "temperature_min": 18,
       "temperature_max": 28,
-      "weather_type": "Sunny"
+      "weather_type": "Despejado"
     },
     {
       "day": "Tue",
       "temperature_min": 17,
       "temperature_max": 26,
-      "weather_type": "Partly Cloudy"
+      "weather_type": "Soleado"
     },
     {
       "day": "Wed",
       "temperature_min": 16,
       "temperature_max": 24,
-      "weather_type": "Mostly Cloudy"
+      "weather_type": "Soleado"
     },
     {
       "day": "Thu",
       "temperature_min": 16,
       "temperature_max": 24,
-      "weather_type": "Mostly Cloudy"
+      "weather_type": "Soleado"
     },
     {
       "day": "Fri",
       "temperature_min": 16,
       "temperature_max": 24,
-      "weather_type": "Mostly Cloudy"
+      "weather_type": "Soleado"
     },
     {
       "day": "Sat",
       "temperature_min": 16,
       "temperature_max": 24,
-      "weather_type": "Mostly Cloudy"
+      "weather_type": "Soleado"
     },
     {
       "day": "Sun",
       "temperature_min": 16,
       "temperature_max": 24,
-      "weather_type": "Mostly Cloudy"
+      "weather_type": "Soleado"
     }
   ]
 }

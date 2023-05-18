@@ -1,0 +1,16 @@
+.diaContainer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 5px 0;
+  align-items: center;
+}
+
+.temperature {
+  display: flex;
+  margin: 15px 0;
+}
+
+.temperature > div {
+  margin: 0 10px;
+}

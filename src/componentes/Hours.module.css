@@ -1,0 +1,20 @@
+.hoursDisplay {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  justify-content: space-around;
+}
+
+.hoursContainer {
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: rgba(155, 194, 226, 0.4);
+}
+
+.conditions {
+  font-size: 12px;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}

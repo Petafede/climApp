@@ -1,10 +1,13 @@
+import styles from './Header.module.css';
+
 function Header(props) {
   return (
-    <div>
-      <span className="ubicacion">{props.ubicacion}</span>
-      <h3 className="temperatura">{props.temperatura}</h3>
-      <h4 className="cielo">{props.cielo}</h4>
-      <h5 className="maxYmin">{props.maxYmin}</h5>
+    <div className={styles.headerContainer}>
+      <span className={styles.locationLabel}>{props.ubicacion}</span>
+      <h6 className={styles.fecha}>{props.fecha}</h6>
+      <h3 className={styles.temperature}>{props.temperatura}</h3>
+      <h4 className={styles.cielo}>{props.cielo}</h4>
+      <h5 className={styles.minYmax}>{props.maxYmin}</h5>
     </div>
   );
 }

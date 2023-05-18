@@ -1,0 +1,26 @@
+.headerContainer {
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+
+.locationLabel {
+  font-size: 24px;
+}
+
+.temperature {
+  font-size: 50px;
+  margin: 0;
+}
+
+.cielo {
+  margin: 0;
+}
+
+.minYmax {
+  margin: 0;
+}
+
+.fecha {
+  margin: 0;
+}
