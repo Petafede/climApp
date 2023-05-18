@@ -1,0 +1,26 @@
+.dayContainer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 5px 0;
+    align-items: center;
+    
+}
+.day{
+    width: 33.3%;
+}
+.weatherIcon{
+    text-align: center;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+}
+.temperature{
+    display: flex;
+    justify-content: end;
+    margin: 15px 0;
+    width: 33.3%;
+}
+.temperature > div{
+    margin: 0 10px;
+}

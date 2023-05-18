@@ -1,0 +1,16 @@
+.container{
+    color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    background: linear-gradient(to top, #040c0f, #1f00aa);
+    border-radius: 10px;
+    width: 45%;
+}
+.title{
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    
+}
+.humidity{
+    padding: 5px;
+}

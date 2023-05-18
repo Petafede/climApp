@@ -1,0 +1,11 @@
+.hourContainer{
+    margin: 2px;
+    text-align: center;
+    width: 80px;
+    font-size: 12px;
+    padding: 10px 0;
+    
+}
+.hourContainer > div{
+    margin: 5px 0;
+}

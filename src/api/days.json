@@ -10,37 +10,37 @@
       "day": "Tue",
       "temperature_min": 17,
       "temperature_max": 26,
-      "weather_type": "Partly Cloudy"
+      "weather_type": "Cloudy"
     },
     {
       "day": "Wed",
       "temperature_min": 16,
       "temperature_max": 24,
-      "weather_type": "Mostly Cloudy"
+      "weather_type": "Cloudy"
     },
     {
       "day": "Thu",
       "temperature_min": 16,
       "temperature_max": 24,
-      "weather_type": "Mostly Cloudy"
+      "weather_type": "Sunny"
     },
     {
       "day": "Fri",
       "temperature_min": 16,
       "temperature_max": 24,
-      "weather_type": "Mostly Cloudy"
+      "weather_type": "Cloudy"
     },
     {
       "day": "Sat",
       "temperature_min": 16,
       "temperature_max": 24,
-      "weather_type": "Mostly Cloudy"
+      "weather_type": "Cloudy"
     },
     {
       "day": "Sun",
       "temperature_min": 16,
       "temperature_max": 24,
-      "weather_type": "Mostly Cloudy"
+      "weather_type": "Sunny"
     }
   ]
 }

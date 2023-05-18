@@ -1,0 +1,12 @@
+.diasContainer{
+    color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    background: linear-gradient(to top, #040c0f, #1f00aa);
+    border-radius: 10px;
+
+}
+.forecastLabel{
+    font-size: 11px;
+    padding: 10px 0;
+}

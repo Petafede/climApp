@@ -1,0 +1,23 @@
+.hoursDisplay{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    justify-content: space-around;
+    
+}
+.hoursContainer{
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    background: linear-gradient(to top, #040c0f, #1f00aa);
+    border-radius: 10px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.condition{
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+
+}
