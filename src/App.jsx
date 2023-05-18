@@ -4,6 +4,7 @@ import Days from './componentes/Days';
 import Humidity from './componentes/Humidity';
 import Uv from './componentes/Uv';
 import Sunset from './componentes/Sunset';
+import Input from './componentes/Input';
 import ListSelector from './componentes/ListSelector';
 // import apiMock from './api/api.json';
 import apiDays from './api/days.json';
@@ -42,10 +43,14 @@ function App() {
 
   return (
     <div className={styles.appContainer}>
-      <div className={styles.federico}></div>
-      <div className={styles.fabri}>
-        <ListSelector setCity={setCity}/>
+      <div className={styles.federico}>
+        <Input setCity={setCity}></Input>
       </div>
+
+      <div className={styles.fabri}>
+        <ListSelector setCity={setCity} />
+      </div>
+
       <Header
         ubicacion={clima.location.name}
         fecha={clima.current.last_updated}
